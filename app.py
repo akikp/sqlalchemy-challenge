@@ -10,6 +10,7 @@ from sqlalchemy.sql import exists
 
 from flask import Flask, jsonify
 
+
 #################################################
 # Database Setup
 #################################################
@@ -28,6 +29,7 @@ Station = Base.classes.station
 # Flask Setup
 #################################################
 app = Flask(__name__)
+
 
 #################################################
 # Flask Routes
